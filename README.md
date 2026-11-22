@@ -77,4 +77,111 @@ Analyzes product sales and gross margins, customer segments, top customers, and 
 ![Product and Customer Analysis](Screenshots/Product_Customer_Analysis.png)
 
 The dashboards support interactive filtering by financial year, region, and distribution channel.
+
+## Key Business Insights & Recommendations
+
+### 1. Regional Sales & Profitability
+**Findings:**
+- North generated the highest sales at ₹64.58 Cr.
+- West recorded the highest regional gross margin at 29.12%.
+- Central had the lowest sales (₹42.81 Cr) and gross margin (26.88%).
+
+**Recommendations:**
+- Investigate Central's product mix, pricing, distribution coverage, and customer performance.
+- Study West's higher-margin product and channel mix to identify practices that could be applied elsewhere.
+
+### 2. Distribution Channel Performance
+**Findings:**
+- General Trade generated the highest sales at ₹70.96 Cr, with a 30.28% gross margin.
+- Pharmacy achieved the highest gross margin at 30.71%.
+- Institutional recorded the lowest gross margin at 23.26%.
+
+**Recommendations:**
+- Review institutional pricing, discounts, and product mix to identify margin improvement opportunities.
+- Evaluate opportunities to grow profitable General Trade and Pharmacy sales while considering channel costs and demand.
+
+### 3. Product Profitability
+**Findings:**
+- NutriPro Plus generated the highest product sales at ₹20.50 Cr but recorded a relatively low gross margin of 23.33%.
+- FemVita generated ₹10.77 Cr in sales with a higher gross margin of 36.23%.
+
+**Recommendations:**
+- Investigate NutriPro Plus's pricing, discounts, and product costs.
+- Evaluate whether FemVita has opportunities for profitable growth without assuming that higher margins guarantee higher demand.
+
+### 4. Customer Segment Performance
+**Findings:**
+- Large customers contributed approximately 69.46% of total sales.
+- Medium customers contributed 25.75%, while Small customers contributed 4.79%.
+- The top 10 customers accounted for approximately 23.20% of total sales.
+
+**Recommendations:**
+- Monitor revenue concentration and retention among major customers.
+- Assess the growth potential of medium and small customers based on profitability, purchase frequency, and service costs.
+
+### 5. Sales Target Achievement
+**Findings:**
+- Total sales reached ₹276.82 Cr against simulated targets of ₹602.64 Cr.
+- Overall target achievement was 45.93%.
+- The gap between actual sales and simulated targets was approximately ₹325.82 Cr.
+
+**Recommendations:**
+- Review target-setting assumptions and compare achievement across regions, channels, and financial years.
+- Investigate performance gaps before proposing corrective actions, since the targets are synthetic.
+
+## Business Conclusion
+
+The analysis identifies opportunities to investigate regional performance differences, channel profitability, product margins, customer concentration, and sales target achievement.
+
+The project demonstrates how Excel-based data analysis and Power BI dashboards can support structured FMCG performance reviews and data-informed business decisions.
+
+*All findings are based on synthetic data. Recommendations are analytical hypotheses requiring further business validation.*
+
+## Tools & Technologies
+
+| Tool | Application |
+|---|---|
+| Microsoft Excel | Data preparation, validation, formulas, PivotTables, and business performance analysis |
+| Power BI | Data modeling, interactive dashboards, and business performance reporting |
+| DAX | KPI measures, sales and profitability calculations, target achievement, and customer metrics |
+
+## Project Methodology
+
+1. **Data Preparation:** Organized and validated synthetic FMCG transactional data in Excel.
+2. **Exploratory Analysis:** Used Excel formulas and PivotTables to analyze sales, profitability, customers, products, regions, and channels.
+3. **Data Modeling:** Imported the data into Power BI, established table relationships, and created a date dimension.
+4. **DAX Calculations:** Developed measures for sales, profit, gross margin, quantity, customers, and target achievement.
+5. **Dashboard Development:** Built two interactive report pages with KPI cards, trend charts, performance comparisons, and slicers.
+6. **Business Interpretation:** Identified performance gaps and developed practical recommendations based on the findings.
+
+## Repository Structure
+
+```text
+NourishCo-FMCG-Sales-Analytics/
+│
+├── Data/
+│   └── NourishCo_FMCG_Raw_Data.xlsx
+│
+├── PowerBI/
+│   └── NourishCo_Dashboard.pbix
+│
+├── Screenshots/
+│   ├── Executive_Overview.png
+│   └── Product_Customer_Analysis.png
+│
+└── README.md
+```
+
+## How to Explore the Project
+
+1. Review the dashboard screenshots in the Screenshots folder or above in this README.
+2. Download the Excel workbook from the Data folder to explore the synthetic dataset and analysis.
+3. Download the `.pbix` file from the PowerBI folder.
+4. Open the `.pbix` file using Microsoft Power BI Desktop to explore the interactive report and DAX measures.
+
+## Project Disclaimer
+
+This is an independent portfolio project using synthetic FMCG data. It is not affiliated with Nestlé or any other real company, and no confidential company data was used.
+  
+  
   
