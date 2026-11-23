@@ -181,7 +181,7 @@ NourishCo-FMCG-Sales-Analytics/
 
 ## Project Disclaimer
 
-This is an independent portfolio project using synthetic FMCG data. It is not affiliated with Nestlé or any other real company, and no confidential company data was used.
+This is an independent portfolio project using synthetic FMCG data. It is not affiliated with any real company, and no confidential company data was used.
   
   
   
